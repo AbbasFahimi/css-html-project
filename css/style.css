@@ -1,0 +1,16 @@
+/* @import "_contact.css";
+@import "_nav.css";
+@import "_header.css";
+@import "_course.css";
+@import "_about-us.css";
+@import "_teachers.css";
+@import "_stats.css";
+@import "_article.css";
+@import "_faq.css";
+@import "_footer.css"; */
+@font-face {
+  font-family: Sahel;
+  src: url(../fonts/Sahel.eot) format(embedded-opentype),
+    url(../fonts/Sahel.woff2) format(woff2),
+    url(../fonts/Sahel.woff) format(woff);
+}

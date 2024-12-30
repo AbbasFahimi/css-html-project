@@ -1,0 +1,33 @@
+/* start contact section styles */
+.container-fluid-costum {
+  background-color: #305d47;
+  color: #fff;
+  height: 32px;
+}
+.container-fluid-costum .contact {
+  font-size: 13px;
+}
+.container-fluid-costum .contact  i{
+  color: orange;
+  padding: 0 15px;
+  vertical-align: -5px;
+}
+.container-fluid-costum .contact span {
+  color: #fff;
+  margin-left: 5px;
+  vertical-align: 1px;
+}
+.container-fluid-costum .social {
+  direction: ltr;
+  font-size: 20px;
+}
+.container-fluid-costum .social  a{
+  color: #fff;
+  padding: 3px;
+  vertical-align: -1px;
+}
+.container-fluid-costum .social a:hover {
+  color: orange;
+  transition: color 1s;
+}
+/* end contact section styles */

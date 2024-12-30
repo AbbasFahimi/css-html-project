@@ -1,0 +1,74 @@
+/* start teachers section */
+.teachers {
+  background-image: url(../img/e-bg.jpg);
+}
+.teachers-title {
+  text-align: center;
+}
+.teachers-title span::before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 3px;
+  background-color: #419e71;
+  top: 13px;
+  right: -50px;
+}
+.teachers-title span::after {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 3px;
+  background-color: #419e71;
+  top: 13px;
+  right: 58px;
+}
+.teachers-intro {
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 150px;
+  background-color: #efefef;
+  text-align: center;
+
+  box-shadow: -1px 2px 9px #7f7272;
+}
+.teachers-intro a {
+  background-color: #388861;
+  padding: 5px 10px;
+  margin-top: 30px;
+  display: inline-block;
+  transition: 0.5s ease;
+  color: #fff;
+}
+.teachers-intro a:hover {
+  border-radius: 10px 0 10px 0;
+  background-color: #2a6649;
+}
+@media screen and (max-width: 768px) and (min-width: 550px) {
+  .teachers-intro {
+    margin-top: 50px;
+    top: 70%;
+  }
+  .teachers-intro h3 {
+    font-size: 14px;
+  }
+  .teachers-intro a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .teachers-intro {
+    height: 100px;
+  }
+  .teachers-intro h3 {
+    font-size: 14px;
+  }
+  .teachers-intro a {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+/* start teachers section */

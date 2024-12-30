@@ -1,0 +1,37 @@
+/* start stats section */
+.stats-title {
+  text-align: center;
+}
+.stats-title span::before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 3px;
+  background-color: #419e71;
+  top: 13px;
+  right: -50px;
+}
+.stats-title span::after {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 3px;
+  background-color: #419e71;
+  top: 13px;
+  right: 25px;
+}
+.stats-wrapper {
+  background-color: #419e71;
+}
+.stats {
+  text-align: center;
+}
+
+.stats p {
+  margin: 10px;
+}
+.stats img {
+  margin-top: 20px;
+}
+
+/* end stats section */

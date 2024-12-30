@@ -1,0 +1,49 @@
+/* start header section styles */
+.img-header {
+  height: 88vh;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 88vh;
+  width: 100%;
+  color: #fff;
+}
+.overlay h1,
+h3 {
+  margin: 10px;
+}
+.info {
+  margin: 80px;
+  max-width: 400px;
+}
+.overlay a {
+  background-color: orange;
+  color: #fff;
+  padding: 5px 10px;
+  float: left;
+  margin-left: 95px;
+}
+.overlay a:hover {
+  background-color: rgb(182, 118, 0);
+  transition: all 1s;
+}
+@media screen and (max-width: 600px){
+.overlay{
+  height: 60vh;
+}
+.img-header{
+  height: 60vh;
+}
+.info {
+  margin-right: 40px;
+  margin-top: 60px;
+  max-width: 350px;
+}
+.overlay a{
+  margin-left: 40px;
+}
+}
+  
+
+
+/* start header section styles */
